@@ -25,11 +25,19 @@ test.describe.serial('Main method',()=>{
 
 
 
-    test('form1',async({page})=>{
+    test('Test case 1',async({page})=>{
         const form1 = new Form1(page)
         await form1.Form1page(userData)
+    })
 
+    test('Test case 2',async({page})=>{
+        const multiselection1 = new Form1(page)
+        await multiselection1.Multiselection1(userData)
+    })
 
+    test('Test case 3',async({page})=>{
+        const multiselection2 = new Form1(page)
+        await multiselection2.Multiselection2(userData)
     })
 
 })

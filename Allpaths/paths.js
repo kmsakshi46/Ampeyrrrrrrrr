@@ -11,6 +11,7 @@ class Paths{
         this.Fromdatepick = "#fromDate"
         this.Todatepick = "#toDate"
         this.SelectChannel = "//input[@class='select2-search__field']"
+        this.SelectChannel3 = "//ul[@class = 'select2-selection__rendered']"
     
 
 
